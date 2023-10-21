@@ -30,7 +30,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to another stream with M3U8 URL and no DRM
   function switchToOtherStream() {
     playerInstance.setup({
-      file: "https://cdn06lhr.tamashaweb.com:8087/hls/102811/l9cVZ4dg38t/smil:mpfour.smil/1080p.mp4_chunk.m3u8",
+      file: "http://cdn.live247stream.com/thelight/tv/playlist.m3u8",
       type: "hls",  // Set the type to HLS for M3U8 URLs
     });
   }

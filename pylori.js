@@ -3,7 +3,7 @@ var playerInstance = jwplayer("jwplayerDiv");
   // Function to switch to DRM 1
   function switchToDRM1() {
     playerInstance.setup({
-      file: "https://tapmadlive.akamaized.net/tapmadold/92news.smil/playlist.m3u8",
+      file: "http://cdn.live247stream.com/thelight/tv/playlist.m3u8",
       type: "dash",
       drm: {
         "clearkey": {
@@ -37,7 +37,7 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to another stream with M3U8 URL and no DRM
    function switchToOtherStream1() {
   playerInstance.setup({
-    file: "https://dai.fancode.com/primary/85196_english_hls_5390ta-no/1080p.m3u8",
+    file: "http://cdn.live247stream.com/thelight/tv/playlist.m3u8",
     type: "hls",  // Set the type to HLS for M3U8 URLs
   });
   }
@@ -50,7 +50,7 @@ var playerInstance = jwplayer("jwplayerDiv");
          }
   function switchToDRM() {
     playerInstance.setup({
-        file: "https://isp.sananda.online/Star/video.m3u8",
+        file: "http://cdn.live247stream.com/thelight/tv/playlist.m3u8",
           type: "hls",  // Set the type to HLS for M3U8 URLs
         });
         }

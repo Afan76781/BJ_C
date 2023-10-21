@@ -1,14 +1,12 @@
 var playerInstance = jwplayer("jwplayerDiv");
 
-  // Function to switch to DRM 1
-  function switchToDRM1() {
+  // Function to switch to another stream with M3U8 URL and no DRM
+  function Bjking1() {
     playerInstance.setup({
       file: "http://cdn.live247stream.com/thelight/tv/playlist.m3u8",
-      type: "dash",
-      drm: {
-        "clearkey": {
-          "keyId": "6a9e4204f3f8577ebf6e79b3b18573f8",
-          "key": "5a8964c25a3a6eba7319f8e4c7efa3aa"
+      type: "hls",  // Set the type to HLS for M3U8 URLs
+    });
+  }
         }
       }
     });

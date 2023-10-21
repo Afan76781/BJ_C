@@ -17,7 +17,7 @@ var playerInstance = jwplayer("jwplayerDiv");
   // Function to switch to DRM 2
   function switchToDRM2() {
     playerInstance.setup({
-      file: "https://bpprod5linear.akamaized.net/bpk-tv/irdeto_com_Channel_250/output/manifest.mpd",
+      file: "http://cdn.live247stream.com/thelight/tv/playlist.m3u8",
       type: "dash",
       drm: {
         "clearkey": {
